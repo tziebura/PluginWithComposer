@@ -1,0 +1,14 @@
+{
+    "name": "tziebura/plugin-with-composer",
+    "description": "Plugin with composer",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "authors": [
+        {
+            "name": "Tomasz Ziebura",
+            "email": "dev.ziebura@gmail.com"
+        }
+    ],
+    "plugin_manifest": {}
+}
