@@ -21,6 +21,7 @@ class PluginWithComposer extends AbstractPlugin
         $client = new Client();
         $response = $client->get('http://localhost:8000');
 
+        echo 'I have changes' . PHP_EOL;
         return $response->getBody()->getContents() === 'OK';
     }
 }
